@@ -4,7 +4,7 @@ import pandas as pd
 import json
 import csv
 
-json_file = open('D:/webcorpora/corpus.json', 'r')
+json_file = open('repository/corpus.json', 'r')
 
 dict = json.load(json_file)
 
