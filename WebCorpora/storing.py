@@ -4,7 +4,7 @@ import pandas as pd
 import json
 import csv
 
-json_file = open('repository/corpus.json', 'r')
+json_file = open('/repository/corpus.json', 'r')
 
 dict = json.load(json_file)
 
@@ -15,4 +15,4 @@ df = pd.DataFrame.from_dict(dict, orient='index')
 df.rename_axis('Word').reset_index().assign(length = df.index.str.len())\
     .rename(columns={0:'Count'})
 
-df.to_csv('D:/webcorpora/corpus.csv')
+df.to_csv('/repository/corpus.csv')
