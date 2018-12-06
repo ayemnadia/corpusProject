@@ -2,14 +2,14 @@ import json
 import re
 
 # the scraped file by Scrapy
-file_news = 'D:/webcorpora/newsCrawler/newsCrawler/spiders/kompas_edu.json'
+file_news = '/repository/newsCrawler/newsCrawler/spiders/kompas_edu.json'
 
 # this file will be created automatically when cleaning process is done
 # and containing the collected 'desc' item
-file_clean = 'D:/webcorpora/kompas_edu_clean.txt'
+file_clean = '/repository/kompas_edu_clean.txt'
 
 # this file is containing the list of words that appear and counting them
-corpus_freq = 'D:/webcorpora/corpus.json'
+corpus_freq = '/repository/corpus.json'
 
 with open(file_news) as data:
     data = json.load(data)
