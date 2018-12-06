@@ -6,3 +6,7 @@ Requirement python modules:
   - Regular Expressions (re)
   - Pandas
   - CSV
+
+Created by:
+  - Nadia Rahmatunnisa
+  - S1 Ilmu Komputer - 141401025
